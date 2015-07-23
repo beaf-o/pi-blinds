@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<style>
+			html {
+				font-size: 30px;
+			}
+
+			img {
+				width: 40px;
+				height: 40px;
+				padding-left: 20px;
+			}
+
+			body {
+				width: 600px;
+			}
+
+			.left {
+				width: 500px;
+				float: left;
+			}
+
+			.right {
+				width:30px;
+			}
+
+			.room {
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Jalousiesteuerung</h1>
+		<div class="room"> 
+			<div class="left">			
+				<a href="blinds.php?r=wz&d=up">Wohnzimmer hoch</a>
+			</div>
+			<a class="right" href="blinds.php?r=wz&d=up"><img src="images/up.png" /></a>
+		</div>
+		<div class="room">	
+			<div class="left">
+				<a href="blinds.php?r=wz&d=down">Wohnzimmer runter</a>
+			</div>
+			<a class="right" href="blinds.php?r=wz&d=down"><img src="images/down.png" /></a>
+		</div>
+                <div class="room">
+			<div class="left">
+				<a href="blinds.php?r=sz&d=up">Schlafzimmer hoch</a>
+			</div>
+			<a href="blinds.php?r=sz&d=up"><img src="images/up.png" /></a>
+		</div>
+                <div class="room">
+			<div class="left">
+				<a href="blinds.php?r=sz&d=down">Schlafzimmer runter</a>
+			</div>
+			<a class="right" href="blinds.php?r=sz&d=down"><img src="images/down.png" /></a>
+		</div>
+                <div class="room">
+			<div class="left">
+				<a href="blinds.php?r=all&d=up">Alles hoch</a>
+			</div>
+			<a class="right" href="blinds.php?r=all&d=up"><img src="images/check.png" /></a>
+		</div>
+                <div class="room">
+			<div class="left">
+				<a href="blinds.php?r=all&d=down">Alles runter</a>
+			</div>
+			<a class="right" href="blinds.php?r=all&d=down"><img src="images/cross.png" /></a>
+		</div>
+	</body>
+</html>
